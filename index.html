@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> BD Military</title>
+    <!-- icon log  -->
+    <link rel="icon" type="image/png" href="imgs/military-man.png">
+
+    <!-- css link  -->
+    <link rel="stylesheet" href="Style.css">
+    <!-- daisyui  link  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:wght@100..400&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="bg-gray-100 font-Playwrite GB S">
+
+    <header>
+
+        <!-- Top Bar -->
+        <section class="bg-[rgb(38,109,5)] px-5 py-3">
+
+            <div class="max-w-[1200px] mx-auto flex flex-col lg:flex-row justify-between items-center gap-4">
+
+                <!-- Left Content -->
+                <div class="text-center lg:text-left">
+
+                    <!-- Desktop -->
+                    <div class="hidden lg:flex flex-col">
+
+                        <span class="text-white text-lg font-semibold">
+                            বাংলাদেশ বাহিনীতে যোগ দিন, দেশ সেবার সুযোগ নিন
+                        </span>
+
+                        <span class="text-yellow-300 text-sm font-medium">
+                            JOIN BANGLADESH MILITARY , SERVE THE NATION
+                        </span>
+
+                    </div>
+
+                    <!-- Tablet -->
+                    <div class="hidden md:block lg:hidden">
+
+                        <span class="text-white text-base font-semibold">
+                            বাংলাদেশ আর্মিতে যোগ দিন এবং দেশ সেবা করুন
+                        </span>
+
+                    </div>
+
+                    <!-- Mobile -->
+                    <div class="block md:hidden">
+
+                        <span class="text-yellow-300 text-sm font-semibold">
+                            JOIN BANGLADESH ARMY
+                        </span>
+
+                    </div>
+
+                </div>
+
+                <!-- Right Content -->
+                <div class="flex flex-wrap justify-center lg:justify-end items-center gap-4">
+
+                    <!-- Hotline -->
+                    <div class="text-yellow-300 text-sm font-semibold">
+                        হটলাইনঃ 167892
+                    </div>
+
+                    <!-- Phone -->
+                    <div class="flex items-center gap-1 text-white text-sm">
+
+                        <img src="https://cdn-icons-png.flaticon.com/512/597/597177.png" alt="phone" class="w-[14px]">
+
+                        <span>01700000000</span>
+
+                    </div>
+
+                    <!-- Email -->
+                    <div class="flex items-center gap-1 text-white text-sm">
+
+                        <img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="email" class="w-[14px]">
+
+                        <span>example@gmail.com</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--  Banner -->
+        <section class="bg-[#0b1f3a] px-5 py-4">
+
+            <div class="max-w-[1200px] mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+
+                <!-- Logo -->
+                <div class="flex items-center gap-3">
+
+                    <img src="imgs/gun.png" alt="gun" class="w-[45px] md:w-[55px]">
+
+                    <span class="text-white text-sm md:text-lg font-semibold text-center md:text-left">
+                        JOIN BANGLADESH MILITARY, SERVE THE NATION
+                    </span>
+
+                </div>
+
+
+            </div>
+
+        </section>
+        <!-- Navbar  -->
+        <section class="">
+            <div class="max-w-[1200px] mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+                <div class="navbar bg-[#d8dbe0] px-5">
+
+                    <!-- Left -->
+                    <div class="navbar-start">
+
+                        <!-- Mobile Menu -->
+                        <div class="dropdown">
+
+                            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden text-[#0b1f3a]">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h8m-8 6h16" />
+
+                                </svg>
+
+                            </div>
+
+                            <!-- Mobile Dropdown -->
+                            <ul tabindex="0"
+    class="menu menu-sm dropdown-content bg-[rgb(228,230,232)] rounded-box z-[1] mt-3 w-52 p-2 shadow text-[#0b1f3a]">
+
+    <!-- Home -->
+    <li>
+        <a>Home</a>
+    </li>
+
+    <!-- Bangladesh Force -->
+    <li>
+        <details>
+
+            <summary>Bangladesh Force</summary>
+
+            <ul class="p-2 bg-[rgb(139,152,171)] rounded-2xl">
+
+                <li><a>Army</a></li>
+                <li><a>Navy</a></li>
+                <li><a>Air Force</a></li>
+
+            </ul>
+
+        </details>
+    </li>
+
+    <!-- Weapons -->
+    <li>
+        <details>
+
+            <summary>Weapons</summary>
+
+            <ul class="p-2 bg-[rgb(139,152,171)]  rounded-2xl">
+
+                <li><a>Rifle</a></li>
+                <li><a>Missile</a></li>
+                <li><a>Machine Gun</a></li>
+
+            </ul>
+
+        </details>
+    </li>
+
+    <!-- Tanks -->
+    <li>
+        <details>
+
+            <summary>Tanks</summary>
+
+            <ul class="p-2 bg-[rgb(139,152,171)] rounded-2xl">
+
+                <li><a>Battle Tank</a></li>
+                <li><a>Light Tank</a></li>
+                <li><a>Armored Vehicle</a></li>
+
+            </ul>
+
+        </details>
+    </li>
+
+    <!-- Aircraft -->
+    <li>
+        <details>
+
+            <summary>Aircraft</summary>
+
+            <ul class="p-2 bg-[rgb(139,152,171)] rounded-2xl">
+
+                <li><a>Fighter Jet</a></li>
+                <li><a>Helicopter</a></li>
+                <li><a>Transport Aircraft</a></li>
+
+            </ul>
+
+        </details>
+    </li>
+
+    <!-- Contact -->
+    <li>
+        <a>Contact</a>
+    </li>
+
+</ul>
+
+                        </div>
+
+                        <!-- Logo -->
+                        <a class="text-[#0b1f3a] text-xl font-bold">
+                            Bangladesh Defence
+                        </a>
+
+                    </div>
+
+                    <!-- Desktop Menu -->
+                    <div class="navbar-center hidden lg:flex">
+
+    <ul class="menu menu-horizontal px-1 text-[#0b1f3a] font-medium">
+
+        <!-- Home -->
+        <li>
+            <a class="hover:text-[rgb(38,109,5)] duration-300">
+                Home
+            </a>
+        </li>
+
+        <!-- Bangladesh Force -->
+        <li>
+            <details>
+
+                <summary class="hover:text-[rgb(38,109,5)] duration-300">
+                    Bangladesh Force
+                </summary>
+
+                <ul class="p-2 bg-[#f2f5f9] text-[#0b1f3a] rounded-lg w-44 shadow-lg">
+
+                    <li>
+                        <a class="hover:bg-[rgb(38,109,5)] hover:text-white rounded-md">
+                            Army
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="hover:bg-[rgb(38,109,5)] hover:text-white rounded-md">
+                            Navy
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="hover:bg-[rgb(38,109,5)] hover:text-white rounded-md">
+                            Air Force
+                        </a>
+                    </li>
+
+                </ul>
+
+            </details>
+        </li>
+
+        <!-- Weapons -->
+        <li>
+            <details>
+
+                <summary class="hover:text-[rgb(38,109,5)] duration-300">
+                    Weapons
+                </summary>
+
+                <ul class="p-2 bg-[#f2f5f9] text-[#0b1f3a] rounded-lg w-44 shadow-lg">
+
+                    <li>
+                        <a class="hover:bg-[rgb(38,109,5)] hover:text-white rounded-md">
+                            Rifle
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="hover:bg-[rgb(38,109,5)] hover:text-white rounded-md">
+                            Missile
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="hover:bg-[rgb(38,109,5)] hover:text-white rounded-md">
+                            Machine Gun
+                        </a>
+                    </li>
+
+                </ul>
+
+            </details>
+        </li>
+
+        
+        <!-- Tanks -->
+<li>
+    <details>
+
+        <summary class="hover:text-[rgb(38,109,5)] duration-300">
+            Tanks
+        </summary>
+
+        <ul class="p-2 bg-[#f2f5f9] text-[#0b1f3a] rounded-lg w-44 shadow-lg">
+
+            <li>
+                <a class="hover:bg-[rgb(38,109,5)] hover:text-white rounded-md">
+                    Battle Tank
+                </a>
+            </li>
+
+            <li>
+                <a class="hover:bg-[rgb(38,109,5)] hover:text-white rounded-md">
+                    Light Tank
+                </a>
+            </li>
+
+            <li>
+                <a class="hover:bg-[rgb(38,109,5)] hover:text-white rounded-md">
+                    Armored Vehicle
+                </a>
+            </li>
+
+        </ul>
+
+    </details>
+</li>
+
+<!-- Aircraft -->
+<li>
+    <details>
+
+        <summary class="hover:text-[rgb(38,109,5)] duration-300">
+            Aircraft
+        </summary>
+
+        <ul class="p-2 bg-[#f2f5f9] text-[#0b1f3a] rounded-lg w-44 shadow-lg">
+
+            <li>
+                <a class="hover:bg-[rgb(38,109,5)] hover:text-white rounded-md">
+                    Fighter Jet
+                </a>
+            </li>
+
+            <li>
+                <a class="hover:bg-[rgb(38,109,5)] hover:text-white rounded-md">
+                    Helicopter
+                </a>
+            </li>
+
+            <li>
+                <a class="hover:bg-[rgb(38,109,5)] hover:text-white rounded-md">
+                    Transport Aircraft
+                </a>
+            </li>
+
+        </ul>
+
+    </details>
+</li>
+</div>
+
+                    <!-- Right -->
+                    <div class="navbar-end">
+
+    <a href="joinnow.html"
+       class="btn bg-yellow-400 border-none hover:bg-yellow-500 text-black">
+        Join Now
+    </a>
+
+</div>
+
+                </div>
+
+            </div>
+        </section>
+<!-- ........................ -->
+
+<section class="">
+    <div class="carousel w-full">
+  <div id="item1" class="carousel-item w-full">
+    <img
+      src="imgs/WhatsApp Image 2026-05-13 at 10.30.49 PM.jpeg"
+      class="w-full" />
+  </div>
+  <div id="item2" class="carousel-item w-full">
+    
+      <img
+      src="imgs/WhatsApp Image 2026-05-13 at 10.34.46 PM (1).jpeg"
+      class="w-full" />
+  </div>
+  <div id="item3" class="carousel-item w-full">
+    <img
+      src="imgs/WhatsApp Image 2026-05-13 at 10.34.46 PM.jpeg"
+      class="w-full" />
+  </div>
+  
+</div>
+<div class="flex w-full justify-center gap-2 py-2">
+  <a href="#item1" class="btn btn-xs">1</a>
+  <a href="#item2" class="btn btn-xs">2</a>
+  <a href="#item3" class="btn btn-xs">3</a>
+ 
+</div>
+
+</section>
+    </header>
+
+    <!-- Main -->
+    <main class="max-w-[1200px] mx-auto p-5">
+<section class="grid md:grid-cols-3 gap-4">
+
+  <!-- Army -->
+  <div class="bg-[#0b1f3a] p-5 rounded-xl shadow-lg">
+    <img src="imgs/WhatsApp Image 2026-05-13 at 9.53.56 PM (1).jpeg" class="rounded-lg">
+
+    <h2 class="text-2xl font-bold  text-green-700 mt-4">
+      Bangladesh Army
+    </h2>
+
+    <p class="mt-2 text-white">
+      Land warfare branch of Bangladesh.
+    </p>
+
+    <a href="https://www.army.mil.bd/Home"
+       class="btn bg-green-700 text-white mt-4 hover:text-green-600">
+       Read More
+    </a>
+  </div>
+
+  <!-- Navy -->
+  <div class="bg-[#0b1f3a] p-5 rounded-xl shadow-lg">
+    <img src="imgs/WhatsApp Image 2026-05-13 at 9.53.56 PM (2).jpeg" class="rounded-lg">
+
+    <h2 class="text-2xl font-bold mt-4 text-blue-700">
+      Bangladesh Navy
+    </h2>
+
+    <p class="mt-2 text-white">
+      Naval warfare branch of Bangladesh.
+    </p>
+
+    <a href="https://www.navy.mil.bd/"
+       class="btn bg-blue-700 text-white mt-4 hover:text-blue-700">
+       Read More
+    </a>
+  </div>
+
+  <!-- Air Force -->
+  <div class="bg-[#0b1f3a] p-5 rounded-xl shadow-lg">
+    <img src="imgs/WhatsApp Image 2026-05-13 at 9.53.56 PM.jpeg" class="rounded-lg h-50">
+
+    <h2 class="text-2xl font-bold mt-4 text-sky-600">
+      Bangladesh Air Force
+    </h2>
+
+    <p class="mt-2 text-white">
+      Air defense branch of Bangladesh.
+    </p>
+
+    <a href="https://baf.mil.bd/index.php"
+       class="btn bg-sky-600 text-white mt-4 hover:text-sky-600">
+       Read More
+    </a>
+  </div>
+
+</section>
+
+
+    </main> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <!-- Footer Section -->
+<footer class="bg-[#0b1f3a] text-white mt-10">
+
+    <div class="max-w-[1200px] mx-auto px-6 py-10 grid md:grid-cols-4 gap-8">
+
+        <!-- Logo & About -->
+        <div>
+            <h2 class="text-2xl font-bold text-yellow-400">
+                BD Military Zone
+            </h2>
+
+            <p class="mt-4 text-gray-300 text-sm leading-6">
+                Bangladesh Defence website about Army, Navy and Air Force.
+                Protecting the nation with courage, discipline and honor.
+            </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+            <h3 class="text-xl font-semibold mb-4 text-yellow-400">
+                Quick Links
+            </h3>
+
+            <ul class="space-y-2 text-gray-300">
+
+                <li>
+                    <a href="index.html" class="hover:text-yellow-400 duration-300">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="army.html" class="hover:text-yellow-400 duration-300">
+                        Army
+                    </a>
+                </li>
+
+                <li>
+                    <a href="navy.html" class="hover:text-yellow-400 duration-300">
+                        Navy
+                    </a>
+                </li>
+
+                <li>
+                    <a href="airforce.html" class="hover:text-yellow-400 duration-300">
+                        Air Force
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+        <!-- More Links -->
+        <div>
+            <h3 class="text-xl font-semibold mb-4 text-yellow-400">
+                More
+            </h3>
+
+            <ul class="space-y-2 text-gray-300">
+
+                <li>
+                    <a href="about.html" class="hover:text-yellow-400 duration-300">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="gallery.html" class="hover:text-yellow-400 duration-300">
+                        Gallery
+                    </a>
+                </li>
+
+                <li>
+                    <a href="contact.html" class="hover:text-yellow-400 duration-300">
+                        Contact
+                    </a>
+                </li>
+
+                <li>
+                    <a href="joinnow.html" class="hover:text-yellow-400 duration-300">
+                        Join Now
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+        <!-- Contact -->
+        <div>
+            <h3 class="text-xl font-semibold mb-4 text-yellow-400">
+                Contact Info
+            </h3>
+
+            <p class="text-gray-300 text-sm">
+                📍 Sherpur, Mymensingh, Bangladesh
+            </p>
+
+            <p class="text-gray-300 text-sm mt-3">
+                📞 +8801700000000
+            </p>
+
+            <p class="text-gray-300 text-sm mt-3">
+                ✉ info@bdmilitaryzone.com
+            </p>
+        </div>
+
+    </div>
+
+    <!-- Bottom -->
+    <div class="border-t border-gray-700">
+
+        <div class="max-w-[1200px] mx-auto px-6 py-4 flex flex-col md:flex-row items-center justify-between gap-3">
+
+            <p class="text-sm text-gray-400 text-center">
+                © 2026 BD Military Zone. All Rights Reserved.
+            </p>
+
+            <p class="text-sm text-yellow-400">
+                Developed by Mahedi Hasan Shanto
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+</body>
+
+</html>
