@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>airforce</title>
-     <link rel="icon" type="image/png" href="imgs/military-man.png">
+    <link rel="icon" type="image/png" href="imgs/military-man.png">
 
     <!-- css link  -->
     <link rel="stylesheet" href="Style.css">
@@ -16,8 +17,326 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:wght@100..400&display=swap" rel="stylesheet">
 
+    <!-- CUSTOM ANIMATION -->
+    <style>
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-15px);
+            }
+        }
+    </style>
 </head>
-<body>
-    
+
+<body class="bg-gray-100 font-Playwrite GB S">
+    <!-- HERO SECTION START -->
+    <section class="relative overflow-hidden bg-gradient-to-br from-[#0b1f3a] via-[#102d52] to-[#1a3d6b] px-5 py-16">
+
+        <!-- Background Glow -->
+        <div class="absolute top-0 left-0 w-72 h-72 bg-green-500/20 blur-3xl rounded-full animate-pulse "></div>
+        <div class="absolute bottom-0 right-0 w-72 h-72 bg-yellow-400/20 blur-3xl rounded-full animate-pulse"></div>
+
+        <div class="max-w-[1200px] mx-auto px-6 py-16 lg:py-24">
+
+            <div class="grid lg:grid-cols-2 gap-10 items-center">
+
+                <!-- LEFT CONTENT -->
+                <div class="text-center lg:text-left space-y-6 animate-[fadeIn_1s_ease-in-out]">
+
+                    <span
+                        class="inline-block bg-green-600 text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg">
+                        বাংলাদেশ বিমানবাহিনী
+                    </span>
+
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight text-white">
+                        Serve The Nation <br>
+                        With <span class="text-yellow-400">Honor & Pride</span>
+                    </h1>
+
+                    <p class="text-gray-300 text-base md:text-lg leading-relaxed max-w-[550px] mx-auto lg:mx-0">
+                        বাংলাদেশ বিমানবাহিনী সাহস, শৃঙ্খলা ও আত্মত্যাগের গল্প।
+                        দেশের নিরাপত্তা ও সেবার জন্য সর্বদা প্রস্তুত।
+                    </p>
+
+                    <!-- BUTTONS -->
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+
+                        <a href="joinnow.html"
+                            class="bg-yellow-400 hover:bg-yellow-500 text-black font-bold px-7 py-3 rounded-xl duration-300 shadow-lg hover:scale-105">
+                            Join Army
+                        </a>
+
+                        <a href=""
+                            class="border border-white text-white hover:bg-white hover:text-black font-semibold px-7 py-3 rounded-xl duration-300">
+                            Explore More
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- RIGHT IMAGE -->
+                <div class="relative flex justify-center animate-[float_4s_ease-in-out_infinite]">
+
+                    <!-- Circle Background -->
+                    <div
+                        class="absolute w-[320px] h-[320px] md:w-[420px] md:h-[420px] bg-green-600/20 rounded-full blur-2xl">
+                    </div>
+
+                    <img src="imgs/gun.png" alt="Bangladesh Army"
+                        class="relative z-10 w-full max-w-[420px] object-contain drop-shadow-[0_10px_25px_rgba(0,0,0,0.5)]">
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- HERO SECTION END -->
+
+    <!-- BANGLADESH ARMY SECTION START -->
+    <section class="bg-[#0b1f3a]  px-5 py-16 ">
+
+        <div class="max-w-[1200px] mx-auto">
+
+            <!-- Section Title -->
+            <div class="text-center mb-14">
+                <h2 class="text-3xl md:text-5xl font-extrabold text-white">
+                    Bangladesh Airforce
+                </h2>
+
+                <p class="text-gray-300 mt-4 max-w-[700px] mx-auto text-sm md:text-base">
+                    সাহস, শৃঙ্খলা ও দেশপ্রেমের প্রতীক বাংলাদেশ বিমানবাহিনী।
+                    দেশের নিরাপত্তা, শান্তি রক্ষা ও মানবিক সেবায় সর্বদা নিয়োজিত।
+                </p>
+            </div>
+
+            <!-- Content -->
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+
+                <!-- LEFT IMAGE -->
+                <div class="relative group">
+
+                    <!-- Background Glow -->
+                    <div
+                        class="absolute inset-0 bg-green-500/20 blur-3xl rounded-full opacity-70 group-hover:scale-110 duration-500">
+                    </div>
+
+                    <!-- Army Chief Image -->
+                    <img src="army img/WhatsApp Image 2026-05-13 at 11.05.00 PM.jpeg" alt="Bangladesh Army Chief"
+                        class="relative z-10 w-full max-w-[450px] mx-auto rounded-3xl border-4 border-green-500 shadow-2xl hover:scale-105 duration-500">
+
+                </div>
+
+                <!-- RIGHT CONTENT -->
+                <div class="text-center lg:text-left">
+
+                    <span
+                        class="inline-block bg-green-600 text-white px-4 py-2 rounded-full text-sm font-semibold mb-5">
+                        বাংলাদেশ বিমানবাহিনী
+                    </span>
+
+                    <h3 class="text-3xl md:text-4xl font-extrabold text-white leading-tight">
+                        দেশের গর্ব ও শক্তির প্রতীক
+                    </h3>
+
+                    <p class="text-gray-300 mt-6 leading-relaxed text-sm md:text-base">
+                        বাংলাদেশ বিমানবাহিনী দেশের সার্বভৌমত্ব রক্ষা, দুর্যোগ মোকাবিলা,
+                        আন্তর্জাতিক শান্তিরক্ষা মিশন এবং জনগণের সেবায় গুরুত্বপূর্ণ ভূমিকা পালন করে।
+                        আধুনিক প্রযুক্তি, প্রশিক্ষণ ও আত্মত্যাগের মাধ্যমে সেনাবাহিনী সর্বদা দেশের নিরাপত্তা নিশ্চিত করে
+                        যাচ্ছে।
+                    </p>
+
+                    <!-- Info Cards -->
+                    <div class="grid sm:grid-cols-3 gap-5 mt-8">
+
+                        <div
+                            class="bg-white/10 backdrop-blur-lg border border-white/10 rounded-2xl p-5 hover:-translate-y-2 duration-300">
+
+                            <h4 class="text-3xl font-bold text-yellow-400">
+                                1971
+                            </h4>
+
+                            <p class="text-gray-300 text-sm mt-2">
+                                প্রতিষ্ঠা
+                            </p>
+
+                        </div>
+
+                        <div
+                            class="bg-white/10 backdrop-blur-lg border border-white/10 rounded-2xl p-5 hover:-translate-y-2 duration-300">
+
+                            <h4 class="text-3xl font-bold text-yellow-400">
+                                1L+
+                            </h4>
+
+                            <p class="text-gray-300 text-sm mt-2">
+                                সদস্য
+                            </p>
+
+                        </div>
+
+                        <div
+                            class="bg-white/10 backdrop-blur-lg border border-white/10 rounded-2xl p-5 hover:-translate-y-2 duration-300">
+
+                            <h4 class="text-3xl font-bold text-yellow-400">
+                                Global
+                            </h4>
+
+                            <p class="text-gray-300 text-sm mt-2">
+                                Peace Mission
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Button -->
+                    <div class="mt-8">
+
+                        <a href="#"
+                            class="inline-block bg-yellow-400 hover:bg-yellow-500 text-black font-bold px-8 py-3 rounded-xl duration-300 shadow-lg hover:scale-105">
+                            Learn More
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- BANGLADESH ARMY SECTION END -->
+    <!-- BANGLADESH ARMY MISSIONS SECTION START -->
+    <section class="bg-gradient-to-br from-[#071426] via-[#0b1f3a] to-[#102d52] px-5 py-16 overflow-hidden">
+
+        <div class="max-w-[1200px] mx-auto">
+
+            <!-- SECTION TITLE -->
+            <div class="text-center mb-14">
+
+                <span
+                    class="inline-block bg-green-600 text-white px-5 py-2 rounded-full text-sm font-semibold shadow-lg">
+                    Bangladesh Airforce Missions
+                </span>
+
+                <h2 class="text-3xl md:text-5xl font-extrabold text-white mt-5 leading-tight">
+                    Bangladesh Airforce <span class="text-yellow-400">Operations & Missions</span>
+                </h2>
+
+                <p class="text-gray-300 max-w-[750px] mx-auto mt-5 text-sm md:text-base leading-relaxed">
+                    বাংলাদেশ বিমানবাহিনী দেশের নিরাপত্তা, দুর্যোগ মোকাবিলা,
+                    আন্তর্জাতিক শান্তিরক্ষা ও মানবিক সহায়তায় গুরুত্বপূর্ণ ভূমিকা পালন করে।
+                </p>
+
+            </div>
+
+            <!-- CARDS -->
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-7">
+
+                <!-- CARD 1 -->
+                <div
+                    class="group bg-white/10 backdrop-blur-lg border border-white/10 rounded-3xl p-7 text-center hover:-translate-y-3 hover:shadow-[0_0_30px_rgba(34,197,94,0.4)] duration-500">
+
+                    <div
+                        class="w-20 h-20 mx-auto rounded-full bg-green-500/20 flex items-center justify-center text-4xl text-green-400 group-hover:rotate-12 duration-500">
+                        🛡️
+                    </div>
+
+                    <h3 class="text-white text-2xl font-bold mt-6">
+                        Border Security
+                    </h3>
+
+                    <p class="text-gray-300 text-sm leading-relaxed mt-4">
+                        সীমান্ত নিরাপত্তা ও দেশের সার্বভৌমত্ব রক্ষায় বিমানবাহিনী সর্বদা সতর্ক।
+                    </p>
+
+                </div>
+
+                <!-- CARD 2 -->
+                <div
+                    class="group bg-white/10 backdrop-blur-lg border border-white/10 rounded-3xl p-7 text-center hover:-translate-y-3 hover:shadow-[0_0_30px_rgba(250,204,21,0.4)] duration-500">
+
+                    <div
+                        class="w-20 h-20 mx-auto rounded-full bg-yellow-400/20 flex items-center justify-center text-4xl text-yellow-300 group-hover:scale-110 duration-500">
+                        🌍
+                    </div>
+
+                    <h3 class="text-white text-2xl font-bold mt-6">
+                        UN Peacekeeping
+                    </h3>
+
+                    <p class="text-gray-300 text-sm leading-relaxed mt-4">
+                        বিশ্ব শান্তিরক্ষা মিশনে বাংলাদেশ বিমানবাহিনী আন্তর্জাতিকভাবে প্রশংসিত।
+                    </p>
+
+                </div>
+
+                <!-- CARD 3 -->
+                <div
+                    class="group bg-white/10 backdrop-blur-lg border border-white/10 rounded-3xl p-7 text-center hover:-translate-y-3 hover:shadow-[0_0_30px_rgba(59,130,246,0.4)] duration-500">
+
+                    <div
+                        class="w-20 h-20 mx-auto rounded-full bg-blue-500/20 flex items-center justify-center text-4xl text-blue-300 group-hover:-rotate-12 duration-500">
+                        🚁
+                    </div>
+
+                    <h3 class="text-white text-2xl font-bold mt-6">
+                        Disaster Rescue
+                    </h3>
+
+                    <p class="text-gray-300 text-sm leading-relaxed mt-4">
+                        বন্যা, ঘূর্ণিঝড় ও দুর্যোগে উদ্ধার ও মানবিক সহায়তায় কাজ করে।
+                    </p>
+
+                </div>
+
+                <!-- CARD 4 -->
+                <div
+                    class="group bg-white/10 backdrop-blur-lg border border-white/10 rounded-3xl p-7 text-center hover:-translate-y-3 hover:shadow-[0_0_30px_rgba(239,68,68,0.4)] duration-500">
+
+                    <div
+                        class="w-20 h-20 mx-auto rounded-full bg-red-500/20 flex items-center justify-center text-4xl text-red-300 group-hover:scale-125 duration-500">
+                        🎖️
+                    </div>
+
+                    <h3 class="text-white text-2xl font-bold mt-6">
+                        Military Training
+                    </h3>
+
+                    <p class="text-gray-300 text-sm leading-relaxed mt-4">
+                        আধুনিক প্রশিক্ষণ ও প্রযুক্তির মাধ্যমে দক্ষ সৈনিক তৈরি করা হয়।
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- BANGLADESH ARMY MISSIONS SECTION END -->
+
+
 </body>
+
 </html>
